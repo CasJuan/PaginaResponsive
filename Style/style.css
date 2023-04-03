@@ -124,7 +124,7 @@ header a:hover{
 }
 
 #nuestros-programas .container{
-    padding: 100px 12px;
+    padding: 150px 12px;
 }
 
 #nuestros-programas p{
@@ -134,8 +134,8 @@ header a:hover{
 #nuestros-programas .carta{
     background-position: center center;
     background-size: cover;
-    padding: 50px;
-    margin: 20px;
+    padding: 50px 0px;
+    margin: 30px;
     border-radius: 15px;
 }
 
@@ -213,7 +213,7 @@ footer .container{
     align-items: flex-end;
 }
 
-@media(min-width:720px){
+@media(min-width:850px){
     header{
         position: fixed;
         width: 100%;
@@ -239,7 +239,7 @@ footer .container{
 
     #somos-proya .texto{
         width: 50%;
-        text-align: center;
+        text-align: initial;
         padding-left: 30px;
         max-width: 600px;
         display: flex;
@@ -253,20 +253,25 @@ footer .container{
 
     #somos-proya .img-container{
         background-image:url("/Img/somos-proya.jpg");
-        background-position: center center;
         background-size: cover;
+        background-position: center center;
         height: 500px;
-        height: 400px;
-    }
-
+        width:400px;
+    } 
+    
     #nuestros-programas .programas{
         display: flex;
         justify-content: center;
     }
 
+    
     #nuestros-programas p{
         display: block;
         margin-bottom: 30px;
+    }
+    
+    #nuestros-programas h2{
+        font-size: 4em;
     }
 
     #nustros-programas h3{
@@ -275,10 +280,10 @@ footer .container{
 
     #nuestros-programas .carta{
         padding: 50px;
-        background-size: 100% 180px;
+        background-size: 100% 170px;
         background-repeat: no-repeat;
         background-position-y: 0;
-        background-color: rgb(80, 80, 80);
+        background-color: rgb(50, 50, 50, 1);
         box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5)
     }
 
@@ -317,10 +322,7 @@ footer .container{
     }
 
     #caracteristicas .container{
-        text-align: center;
-        display: flex;
-        flex-direction: row;
-        justify-content:center;
+        text-align: initial;
     }
 
     #caracteristicas ul{
@@ -341,7 +343,7 @@ footer .container{
 
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
     #caracteristicas{
         background-position-x: calc(100vw - 800px) ;
     }
